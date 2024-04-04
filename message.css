@@ -1,6 +1,12 @@
-:root {
-    --pattern: url(https://media.discordapp.net/attachments/910359531727511624/1162732185716006922/resunzxbros.png) repeat;
-    --logo: url(https://media.discordapp.net/attachments/1112474858081747014/1181005386447331439/logo_transparent2.png);
+.interface .logo {
+    display: none;
+    visibility: hidden;
+}
+.promo-link-btn {
+    display: none !important;
+}
+.soc-group[data-v-3c44abf2] {
+    display: none;
 }
 
 * {
@@ -447,4 +453,3 @@ button {
 #play-btn .border-top,
 #play-btn .border-bottom {
     background: none;
-    
